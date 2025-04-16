@@ -2,9 +2,27 @@
 #export SNOWFLAKE_DEFAULT_CONNECTION_NAME="default"
 
 [default]
-account = "myaccount"
-user = "myuser"
-password = "mypassword"
+account = "XKVWYPQ-WV81702"
+user = "ADROSS"
+password = "48h5imeSkr&qifhM"
+role = "HOL_ROLE"
+warehouse = "HOL_WH"
+database = "HOL_DB"
+schema = "ANALYTICS"
+
+[personal-adross-setup]
+account = "XKVWYPQ-WV81702"
+user = "ADROSS"
+password = "48h5imeSkr&qifhM"
+role = "ACCOUNTADMIN"
+warehouse = "COMPUTE_WH"
+database = "TASTY_BYTES_SAMPLE_DATA"
+schema = "RAW_POS"
+
+[personal-adross]
+account = "XKVWYPQ-WV81702"
+user = "ADROSS"
+password = "48h5imeSkr&qifhM"
 role = "HOL_ROLE"
 warehouse = "HOL_WH"
 database = "HOL_DB"
